@@ -1,0 +1,25 @@
+{
+  "pages": [
+    {
+      "name": "Menu",
+      "sub": [
+        {
+          "identifier": "dashboard",
+          "name": "Dashboard",
+          "icon": "bi bi-grid-fill",
+          "href": "/index.php"
+        },
+        {
+          "identifier": "components",
+          "name": "Components",
+          "icon": "bi bi-stack",
+          "href": "#",
+          "drop": [
+            {"identifier": "alert", "href": "#", "name": "Alert"},
+            {"identifier": "alert", "href": "#", "name": "Alert"}
+          ]
+        }
+      ]
+    }
+  ]
+}
